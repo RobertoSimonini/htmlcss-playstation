@@ -21,10 +21,10 @@ section {
     padding: 30px;
 }
 
-/* [class^="col"] {
+[class^="col"] {
     border: 1px solid forestgreen;
     min-height: 50px;
-} */
+}
 
 img {
     display: block;
