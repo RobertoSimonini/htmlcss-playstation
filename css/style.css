@@ -28,15 +28,7 @@ section {
 /* Sections  */
 
 #jumbotron {
-    position: relative;
+    padding-top: 250px;
 }
-
-#jumbotron .row {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    right: 25px;
-}
-
 
 /* Utils  */
