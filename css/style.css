@@ -6,7 +6,12 @@ header {
 
 #logo-header {
     background-color: black;
-    min-height: 35px;
+    height: 25px;
+}
+
+#logo-header img {
+    height: 15px;
+    object-position: center;
 }
 
 /* Generics  */
@@ -20,11 +25,12 @@ section {
     border: 2px dashed orange;
     padding: 30px;
 }
-
+/* 
 [class^="col"] {
     border: 1px solid forestgreen;
     min-height: 50px;
-}
+} */
+
 
 img {
     display: block;
