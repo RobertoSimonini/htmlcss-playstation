@@ -1,4 +1,42 @@
+/* Header  */
+
+header {
+    height: 125px;
+}
+
 #logo-header {
     background-color: black;
     min-height: 35px;
 }
+
+/* Generics  */
+
+body {
+    padding-top: 125px;
+}
+
+section {
+    min-height: 500px;
+    border: 2px dashed orange;
+}
+
+[class^="col"] {
+    border: 1px solid forestgreen;
+    min-height: 50px;
+}
+
+/* Sections  */
+
+#jumbotron {
+    position: relative;
+}
+
+#jumbotron .row {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+}
+
+
+/* Utils  */
