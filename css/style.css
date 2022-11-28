@@ -18,11 +18,17 @@ body {
 section {
     min-height: 500px;
     border: 2px dashed orange;
+    padding: 50px 0;
 }
 
 [class^="col"] {
     border: 1px solid forestgreen;
     min-height: 50px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Sections  */
