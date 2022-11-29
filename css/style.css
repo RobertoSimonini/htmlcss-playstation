@@ -93,17 +93,17 @@ p {
 /* Media Queries  */
 
 @media screen and (min-width: 768px) {
-    #play-plus {
+    #play-plus .container {
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
         background-size: contain;
-        background-position: right 5rem center;
+        background-position: right center;
         background-repeat: no-repeat;
     }
 
-    #ps-now {
+    #ps-now .container {
         background-image: url(../img/ps-now-april-featured-image-block.png);
         background-size: contain;
-        background-position: right 5rem center;
+        background-position: right center;
         background-repeat: no-repeat;
     }
     
