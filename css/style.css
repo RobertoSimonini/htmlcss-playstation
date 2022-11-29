@@ -43,27 +43,29 @@ img {
     max-width: 100%;
 }
 
-p, article {
-    color: #727272;
-    font-size: 1.5em;
+p {
+    font-weight: bold;
 }
 
 /* Sections  */
 
-#jumbotron, #multiplaying {
+#jumbotron{
     padding-top: 250px;
 }
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
-/* #ps5-promo .col-12 img {
-    max-height: 1000px;
-} */
+#multiplaying {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
 
 /* Utils  */
 
