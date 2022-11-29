@@ -27,19 +27,11 @@ body {
     padding-top: 125px;
 }
 
-section {
-    /* min-height: 500px; */
-    /* border: 2px dashed orange; */
+section, footer {
     padding: 50px 0;
 }
 
-/* [class^="col"] {
-    border: 1px solid forestgreen;
-    min-height: 50px;
-} */
-
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -88,6 +80,14 @@ p {
 
 .bg-brown {
     background-color: #BEBCBB;
+}
+
+footer {
+    min-height: 500px;
+}
+
+footer img {
+    height: 50px;
 }
 
 /* Media Queries  */
