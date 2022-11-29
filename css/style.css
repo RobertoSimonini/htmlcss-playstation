@@ -67,8 +67,32 @@ p {
     background-repeat: no-repeat;
 }
 
+#play-plus {
+    padding: 0;
+}
+
+.logo-plus {
+    height: 4em;
+}
+
 /* Colors utils  */
 
 .gray {
     color: #727272;
 }
+
+.bg-brown {
+    background-color: #BEBCBB;
+}
+
+/* Media Queries 
+
+@media screen and (min-width: 768px) {
+    #play-plus {
+        background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+        background-size: contain;
+        background-position: right 1.5rem center;
+        background-repeat: no-repeat;
+    }
+    
+} */
