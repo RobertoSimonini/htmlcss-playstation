@@ -24,7 +24,7 @@ header {
 /* Generics  */
 
 body {
-    padding-top: 125px;
+    padding-top: 115px;
 }
 
 section, footer {
@@ -107,4 +107,18 @@ footer img {
         background-repeat: no-repeat;
     }
     
+}
+
+/* Bonus  */
+
+.btn:hover {
+    border: 1px solid #000;
+}
+
+#jumbo-imgs img {
+    transition: transform 0.5s;
+}
+
+#jumbo-imgs img:hover {
+    transform: translateY(-25px);
 }
