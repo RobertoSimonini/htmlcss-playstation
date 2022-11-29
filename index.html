@@ -79,8 +79,8 @@
 
     <!-- Qui parte il main con le relative sezioni  -->
     <main>  
-        <section id="jumbotron">
-            <div class="container-fluid px-4">
+        <section id="jumbotron" class="px-4">
+            <div class="container-fluid">
                 <div class="row py-3 gy-4 text-white">
                     <div class="col-12">
                         <img class="h-50" src="img/returnal-hero-banner-logo.png" alt="">
@@ -91,7 +91,7 @@
                         </h1>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <p>
+                        <p class="text-white">
                             Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
                         </p>
                     </div>
@@ -103,7 +103,7 @@
         </section>
 
         <!-- Qui metto tutte le immagini sottostante al jumbo  -->
-        <section id="jumbo-imgs">
+        <section id="jumbo-imgs" class="px-4">
             <div class="container-fluid">
                 <div class="row g-4">
 
@@ -125,38 +125,66 @@
         </section>
 
         <!-- Qui metto la sezione dedicata alla ps5  -->
-        <section id="ps5-promo">
+        <section id="ps5-promo" class="px-4">
             <div class="container-fluid">
-                <div class="row gy-4  justify-content-between text-center">
-                    <div class="col-12 ">
+                <div class="row gy-4 justify-content-md-between text-center">
+
+                    <div class="col-12 text-center">
                         <span class="text-primary">PLAY HAS NO LIMITS</span>
                         <h2>Ecco la Playstation 5</h2>
                         <p>
                             Tuffati in nuove possibilità di gioco completamente inaspettate
                         </p>
                     </div>
-                    <div class="col-12 col-md-6"></div>
-                    <div class="col-12 col-md-6"></div>
 
+                    <div class="col-12 col-md-5 d-flex justify-content-center align-items-start flex-column">
+                        <h2>Console Playstation 5</h2>
+                        <p>
+                            Sperimenta la nuove generazione di incredibili giochi Playstation.
+                        </p>
+                        <button class="btn btn-primary rounded-5">Maggiori informazioni </button>
+                    </div>
+                    
+                    <div class="col-12 col-md-7 d-flex align-items-center">
+                        <img src="img/playstation-5-thumb.png" alt="">
+                    </div>
+
+                    
+                    <!-- Qui inserisco le immagini promozioanli degli accessori  -->
+                    
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" alt="">
-                        <article>
-                            Joypad
+                        <img src="img/playstation-5-thumb.png" alt="">
+                        <article class="d-none d-md-block">
+                            Console PS5
                         </article>
                     </div>
 
-                    <!-- Qui inserisco le immagini promozioanli degli accessori  -->
                     <div class="col-4 col-md-2">
                         <img src="img/joypad-thumb.png" alt="">
+                        <article class="d-none d-md-block">
+                            Controller wireless Dualsense
+                        </article>
                     </div>
+
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" alt="">
+                        <img src="img/headset-thumb.png" alt="">
+                        <article class="d-none d-md-block">
+                            Cuffie wireless con micrfono PULSE 3
+                        </article>
                     </div>
+
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" alt="">
+                        <img src="img/remote-thumb.png" alt="">
+                        <article class="d-none d-md-block">
+                            Telecomando Media
+                        </article>
                     </div>
+
                     <div class="col-4 col-md-2">
-                        <img src="img/joypad-thumb.png" alt="">
+                        <img src="img/camera-thumb.jpg" alt="">
+                        <article class="d-none d-md-block">
+                            Telecamera HD
+                        </article>
                     </div>
         
                 </div>
