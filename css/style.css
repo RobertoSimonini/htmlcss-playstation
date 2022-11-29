@@ -82,6 +82,10 @@ p {
     color: #727272;
 }
 
+.bg-darkblue {
+    background-color: #161C3B;
+}
+
 .bg-brown {
     background-color: #BEBCBB;
 }
@@ -92,7 +96,14 @@ p {
     #play-plus {
         background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
         background-size: contain;
-        background-position: right 1.5rem center;
+        background-position: right 5rem center;
+        background-repeat: no-repeat;
+    }
+
+    #ps-now {
+        background-image: url(../img/ps-now-april-featured-image-block.png);
+        background-size: contain;
+        background-position: right 5rem center;
         background-repeat: no-repeat;
     }
     
