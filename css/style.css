@@ -69,6 +69,7 @@ p {
 
 #play-plus {
     padding: 0;
+    height: 450px;
 }
 
 .logo-plus {
@@ -85,7 +86,7 @@ p {
     background-color: #BEBCBB;
 }
 
-/* Media Queries 
+/* Media Queries  */
 
 @media screen and (min-width: 768px) {
     #play-plus {
@@ -95,4 +96,4 @@ p {
         background-repeat: no-repeat;
     }
     
-} */
+}
