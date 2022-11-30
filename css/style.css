@@ -39,6 +39,10 @@ p {
     font-weight: bold;
 }
 
+.card p {
+    font-size: 15px;
+}
+
 /* Sections  */
 
 #jumbotron{
