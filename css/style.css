@@ -75,7 +75,7 @@ p {
 /* Colors / utils  */
 
 .blurry {
-    filter: grayscale(2);
+    filter: opacity(75%);
     transition: filter 0.5s;
 }
 
@@ -156,5 +156,5 @@ footer img {
 
 .blurry:hover {
     cursor: pointer;
-    filter: grayscale(0) brightness(1.10);
+    filter:opacity(1) grayscale(0) brightness(1.10);
 }
