@@ -130,12 +130,13 @@ footer img {
     box-shadow: 0 10px 10px #727272;
 }
 
-#new-releases [class^="col"] {
+#new-releases img {
     cursor: pointer;
     transition: transform 0.25s;
+    padding-bottom: 10px;
 }
 
-#new-releases [class^="col"]:hover {
+#new-releases img:hover {
     transform: scale(1.05);
     filter: brightness(1.25);
 }
