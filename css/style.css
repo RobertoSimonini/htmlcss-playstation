@@ -61,7 +61,11 @@ p {
 
 #play-plus {
     padding: 0;
-    height: 450px;
+    height: 300px;
+}
+
+#ps-now {
+    height: 400px;
 }
 
 .logo-plus {
@@ -98,8 +102,10 @@ footer img {
         background-size: contain;
         background-position: right center;
         background-repeat: no-repeat;
+
     }
 
+   
     #ps-now .container {
         background-image: url(../img/ps-now-april-featured-image-block.png);
         background-size: contain;
@@ -112,7 +118,7 @@ footer img {
 /* Bonus  */
 
 .btn:hover {
-    border: 1px solid #000;
+    box-shadow: black 0 0 5px;
 }
 
 #jumbo-imgs img {
@@ -120,5 +126,16 @@ footer img {
 }
 
 #jumbo-imgs img:hover {
-    transform: translateY(-25px);
+    transform: translateY(-20px);
+    box-shadow: 0 10px 10px #727272;
+}
+
+#new-releases [class^="col"] {
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+#new-releases [class^="col"]:hover {
+    transform: scale(1.05);
+    filter: brightness(1.25);
 }
