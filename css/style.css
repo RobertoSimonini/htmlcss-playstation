@@ -72,7 +72,20 @@ p {
     height: 4em;
 }
 
-/* Colors utils  */
+/* Colors / utils  */
+
+.blurry {
+    filter: grayscale(2);
+    transition: filter 0.5s;
+}
+
+.btn-gray {
+    background-color: #eeeaea;
+}
+
+.btn-gray:hover {
+    background-color: #bdbaba;
+}
 
 .gray {
     color: #727272;
@@ -139,4 +152,9 @@ footer img {
 #new-releases img:hover {
     transform: scale(1.05);
     filter: brightness(1.25);
+}
+
+.blurry:hover {
+    cursor: pointer;
+    filter: grayscale(0) brightness(1.10);
 }
